@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Oranje achtergrond -->
+  <rect width="32" height="32" rx="8" fill="#f97316"/>
+
+  <!-- Laadbed (links) -->
+  <rect x="2" y="13" width="14" height="7" rx="2" fill="white" fillOpacity=".95"/>
+
+  <!-- Cabine (rechts, hoger) -->
+  <rect x="16" y="8" width="12" height="12" rx="2" fill="white" fillOpacity=".95"/>
+
+  <!-- Voorruit -->
+  <rect x="17" y="9.5" width="7.5" height="6.5" rx="1.5" fill="#f97316" fillOpacity=".4"/>
+
+  <!-- Hijsarm schuin omhoog-links -->
+  <line x1="18" y1="8" x2="7" y2="2" stroke="white" strokeWidth="2.5" strokeLinecap="round"/>
+
+  <!-- Katrol aan top arm -->
+  <circle cx="6.5" cy="2" r="2.2" fill="white" fillOpacity=".9"/>
+
+  <!-- Kabel omlaag -->
+  <line x1="6.5" y1="4.2" x2="6.5" y2="13" stroke="white" strokeWidth="1" strokeDasharray="2 1.5" strokeOpacity=".7"/>
+
+  <!-- Haak -->
+  <path d="M6.5 13 Q6.5 16 9.5 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" fill="none" strokeOpacity=".85"/>
+
+  <!-- Achterwiel -->
+  <circle cx="7" cy="22" r="4.5" fill="white" fillOpacity=".95"/>
+  <circle cx="7" cy="22" r="2" fill="#f97316"/>
+
+  <!-- Voorwiel -->
+  <circle cx="23" cy="22" r="4.5" fill="white" fillOpacity=".95"/>
+  <circle cx="23" cy="22" r="2" fill="#f97316"/>
+</svg>
