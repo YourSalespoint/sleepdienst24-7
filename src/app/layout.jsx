@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata = {
   title: 'Sleepdienst24/7 – Pech onderweg? Wij slepen u eruit',
@@ -10,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="nl">
+      <GoogleTagManager gtmId="GTM-KWS5TN35" />
       <body>
         <Header />
         <main>{children}</main>
