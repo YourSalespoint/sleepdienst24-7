@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../components/PhoneIcon'
 
 export const metadata = {
@@ -116,7 +116,7 @@ export default function OverOnsPage() {
           <h2>Klaar om u te helpen</h2>
           <p>Pech of een vraag? Ons team staat dag en nacht voor u klaar. Bel direct of vraag een offerte aan.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

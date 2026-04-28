@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import Link from 'next/link'
 import PhoneIcon from '../../components/PhoneIcon'
@@ -53,8 +53,8 @@ export default function BedanktPage() {
 
             <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '36px' }}>
               <Link href="/" className="btn btn-blue">Terug naar home</Link>
-              <a href="tel:+31850607279" className="btn btn-outline">
-                <PhoneIcon size={15} /> 085 060 7279
+              <a href="tel:+31855055202" className="btn btn-outline">
+                <PhoneIcon size={15} /> 085-5055202
               </a>
             </div>
           </div>

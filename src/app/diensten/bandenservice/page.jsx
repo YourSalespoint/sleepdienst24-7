@@ -1,10 +1,10 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../../components/PhoneIcon'
 import FaqList from '../../../components/FaqList'
 
 export const metadata = {
   title: 'Bandenservice – Sleepdienst24/7 | Lekke band onderweg? Wij helpen',
-  description: 'Lekke band onderweg? Sleepdienst24/7 verwisselt uw band ter plaatse of zorgt voor een passende oplossing. 24/7 beschikbaar in heel Nederland. Bel 085 060 7279.',
+  description: 'Lekke band onderweg? Sleepdienst24/7 verwisselt uw band ter plaatse of zorgt voor een passende oplossing. 24/7 beschikbaar in heel Nederland. Bel 085-5055202.',
 }
 
 const faqItems = [
@@ -77,7 +77,7 @@ export default function BandenservicePage() {
               <div className="sticky-card">
                 <div className="sticky-card-header"><h3>Lekke band?</h3><p>Direct geholpen — 24/7 beschikbaar</p></div>
                 <div className="sticky-card-body">
-                  <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+                  <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
                   <Link href="/contact" className="btn btn-ghost" style={{ marginBottom: '20px' }}>Offerte aanvragen</Link>
                   <div className="sticky-card-info">
                     <p>✓ Binnen 30 minuten ter plaatse</p>
@@ -99,7 +99,7 @@ export default function BandenservicePage() {
           <h2>Lekke band?</h2>
           <p>Bel ons direct — wij zijn er altijd voor u.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

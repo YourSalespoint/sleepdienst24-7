@@ -1,10 +1,10 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../../components/PhoneIcon'
 import FaqList from '../../../components/FaqList'
 
 export const metadata = {
   title: 'Auto Berging – Sleepdienst24/7 | Professionele berging in heel Nederland',
-  description: 'Auto na ongeluk of pech? Sleepdienst24/7 verzorgt professionele auto berging in heel Nederland. 24/7 beschikbaar, snel ter plaatse. Bel 085 060 7279.',
+  description: 'Auto na ongeluk of pech? Sleepdienst24/7 verzorgt professionele auto berging in heel Nederland. 24/7 beschikbaar, snel ter plaatse. Bel 085-5055202.',
 }
 
 const faqItems = [
@@ -86,7 +86,7 @@ export default function AutoBergingPage() {
                   <p>Direct geholpen — 24/7 beschikbaar</p>
                 </div>
                 <div className="sticky-card-body">
-                  <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+                  <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
                   <Link href="/contact" className="btn btn-ghost" style={{ marginBottom: '20px' }}>Offerte aanvragen</Link>
                   <div className="sticky-card-info">
                     <p>✓ Binnen 30 minuten ter plaatse</p>
@@ -108,7 +108,7 @@ export default function AutoBergingPage() {
           <h2>Berging nodig?</h2>
           <p>Bel ons direct voor snelle hulp, dag en nacht.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

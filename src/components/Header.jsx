@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import Link from 'next/link'
@@ -36,8 +36,8 @@ export default function Header() {
             </div>
             <Link href="/over-ons" className={isActive('/over-ons') ? 'active' : ''}>Over Ons</Link>
             <Link href="/contact" className={isActive('/contact') ? 'active' : ''}>Contact</Link>
-            <a href="tel:+31850607279" className="btn btn-primary nav-cta">
-              <PhoneIcon size={15} /> 085 060 7279
+            <a href="tel:+31855055202" className="btn btn-primary nav-cta">
+              <PhoneIcon size={15} /> 085-5055202
             </a>
           </nav>
 
@@ -59,8 +59,8 @@ export default function Header() {
         <Link href="/diensten/slotservice" className="mobile-sub" onClick={() => setMobileOpen(false)}>Slotservice</Link>
         <Link href="/over-ons" onClick={() => setMobileOpen(false)}>Over Ons</Link>
         <Link href="/contact" onClick={() => setMobileOpen(false)}>Contact</Link>
-        <a href="tel:+31850607279" className="mobile-nav-call">
-          <PhoneIcon size={15} /> Bel direct: 085 060 7279
+        <a href="tel:+31855055202" className="mobile-nav-call">
+          <PhoneIcon size={15} /> Bel direct: 085-5055202
         </a>
       </nav>
     </header>

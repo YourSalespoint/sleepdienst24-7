@@ -1,10 +1,10 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../../components/PhoneIcon'
 import FaqList from '../../../components/FaqList'
 
 export const metadata = {
   title: 'Accu Service – Sleepdienst24/7 | Starthulp & accuvervanging ter plaatse',
-  description: 'Lege accu en auto start niet? Sleepdienst24/7 geeft starthulp of vervangt uw accu ter plaatse. 24/7 bereikbaar in heel Nederland. Bel 085 060 7279.',
+  description: 'Lege accu en auto start niet? Sleepdienst24/7 geeft starthulp of vervangt uw accu ter plaatse. 24/7 bereikbaar in heel Nederland. Bel 085-5055202.',
 }
 
 const faqItems = [
@@ -77,7 +77,7 @@ export default function AccuServicePage() {
               <div className="sticky-card">
                 <div className="sticky-card-header"><h3>Accu pech?</h3><p>Direct geholpen — 24/7 beschikbaar</p></div>
                 <div className="sticky-card-body">
-                  <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+                  <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
                   <Link href="/contact" className="btn btn-ghost" style={{ marginBottom: '20px' }}>Offerte aanvragen</Link>
                   <div className="sticky-card-info">
                     <p>✓ Binnen 30 minuten ter plaatse</p>
@@ -99,7 +99,7 @@ export default function AccuServicePage() {
           <h2>Accu pech?</h2>
           <p>Bel ons direct voor snelle hulp, dag en nacht.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

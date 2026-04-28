@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../components/PhoneIcon'
 import FaqList from '../components/FaqList'
 import TowTruckIcon from '../components/TowTruckIcon'
@@ -26,7 +26,7 @@ const faqItems = [
   },
   {
     question: 'Wat moet ik doen als mijn auto pech heeft op de snelweg?',
-    answer: 'Rijd zo snel mogelijk naar de vluchtstrook. Zet uw alarmlichten aan, trek een veiligheidshesje aan en plaats een gevarendriehoek op minimaal 30 meter afstand. Wacht achter de vangrail — niet naast de auto. Bel ons daarna direct op 085 060 7279.',
+    answer: 'Rijd zo snel mogelijk naar de vluchtstrook. Zet uw alarmlichten aan, trek een veiligheidshesje aan en plaats een gevarendriehoek op minimaal 30 meter afstand. Wacht achter de vangrail — niet naast de auto. Bel ons daarna direct op 085-5055202.',
   },
   {
     question: 'Mijn auto is total loss na een ongeluk. Kunnen jullie helpen?',
@@ -50,7 +50,7 @@ const faqSchema = {
 
 export const metadata = {
   title: 'Sleepdienst24/7 – Pech onderweg? Wij slepen u eruit',
-  description: 'Auto pech onderweg? Sleepdienst24/7 staat dag en nacht voor u klaar. Sleepdienst, auto berging, autotransport en meer in heel Nederland. Bel direct: 085 060 7279.',
+  description: 'Auto pech onderweg? Sleepdienst24/7 staat dag en nacht voor u klaar. Sleepdienst, auto berging, autotransport en meer in heel Nederland. Bel direct: 085-5055202.',
 }
 
 function TruckIllustration() {
@@ -140,8 +140,8 @@ export default function HomePage() {
             <h1>Pech onderweg?<br /><em>Wij slepen u eruit</em></h1>
             <p className="hero-desc">Onze gecertificeerde monteurs rijden dag en nacht uit, van Amsterdam tot Maastricht. Sleepdienst, berging, autotransport en meer. Transparante prijs, snel ter plaatse.</p>
             <div className="hero-btns">
-              <a href="tel:+31850607279" className="btn btn-primary">
-                <PhoneIcon size={15} /> Bel direct: 085 060 7279
+              <a href="tel:+31855055202" className="btn btn-primary">
+                <PhoneIcon size={15} /> Bel direct: 085-5055202
               </a>
               <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
             </div>
@@ -354,7 +354,7 @@ export default function HomePage() {
               {
                 nr: '1',
                 title: 'Bel of app ons',
-                desc: 'Bel 085 060 7279 of stuur een WhatsApp. Wij nemen direct op en vragen naar uw locatie en probleem.',
+                desc: 'Bel 085-5055202 of stuur een WhatsApp. Wij nemen direct op en vragen naar uw locatie en probleem.',
                 icon: (
                   <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.09 6.09l1.71-1.71a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.04z"/>
@@ -426,7 +426,7 @@ export default function HomePage() {
           <div className="section-header">
             <span className="label">Veelgestelde vragen</span>
             <h2>Alles wat u wil weten over onze sleepdienst</h2>
-            <p>Heeft u een andere vraag? Bel ons direct op <a href="tel:+31850607279" style={{ color: 'var(--primary)', fontWeight: 700 }}>085 060 7279</a>. Wij zijn er altijd.</p>
+            <p>Heeft u een andere vraag? Bel ons direct op <a href="tel:+31855055202" style={{ color: 'var(--primary)', fontWeight: 700 }}>085-5055202</a>. Wij zijn er altijd.</p>
           </div>
           <div style={{ maxWidth: '780px', margin: '0 auto' }}>
             <FaqList items={faqItems} />
@@ -440,8 +440,8 @@ export default function HomePage() {
           <h2>Pech onderweg? Bel ons direct</h2>
           <p>Onze specialisten staan 24 uur per dag, 7 dagen per week voor u klaar, ook op feestdagen en in het weekend.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary">
-              <PhoneIcon size={15} /> 085 060 7279
+            <a href="tel:+31855055202" className="btn btn-primary">
+              <PhoneIcon size={15} /> 085-5055202
             </a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>

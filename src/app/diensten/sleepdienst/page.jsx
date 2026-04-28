@@ -1,11 +1,11 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../../components/PhoneIcon'
 import FaqList from '../../../components/FaqList'
 import TowTruckIcon from '../../../components/TowTruckIcon'
 
 export const metadata = {
   title: 'Sleepdienst – Sleepdienst24/7 | Veilig weggesleept in heel Nederland',
-  description: 'Auto rijdt niet meer? Sleepdienst24/7 sleept uw voertuig veilig naar uw bestemming. 24/7 beschikbaar, transparante prijs, snel ter plaatse. Bel 085 060 7279.',
+  description: 'Auto rijdt niet meer? Sleepdienst24/7 sleept uw voertuig veilig naar uw bestemming. 24/7 beschikbaar, transparante prijs, snel ter plaatse. Bel 085-5055202.',
 }
 
 const faqItems = [
@@ -98,8 +98,8 @@ export default function SleepdienstPage() {
                   <p>Direct geholpen — 24/7 beschikbaar</p>
                 </div>
                 <div className="sticky-card-body">
-                  <a href="tel:+31850607279" className="btn btn-primary">
-                    <PhoneIcon size={15} /> 085 060 7279
+                  <a href="tel:+31855055202" className="btn btn-primary">
+                    <PhoneIcon size={15} /> 085-5055202
                   </a>
                   <Link href="/contact" className="btn btn-ghost" style={{ marginBottom: '20px' }}>Offerte aanvragen</Link>
                   <div className="sticky-card-info">
@@ -123,7 +123,7 @@ export default function SleepdienstPage() {
           <h2>Sleepdienst nodig?</h2>
           <p>Bel ons direct of vraag een vrijblijvende offerte aan. Wij zijn er altijd voor u.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import SleepLogo from './SleepLogo'
 import PhoneIcon from './PhoneIcon'
 
@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="footer-contact-item">
               <span className="ic"><PhoneIcon size={14} /></span>
               <div>
-                <a href="tel:+31850607279">085 060 7279</a><br />
+                <a href="tel:+31855055202">085-5055202</a><br />
                 <small>24/7 bereikbaar</small>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Footer() {
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                 </svg>
               </span>
-              <div><a href="https://wa.me/31850607279">WhatsApp ons</a></div>
+              <div><a href="https://wa.me/31855055202">WhatsApp ons</a></div>
             </div>
           </div>
         </div>

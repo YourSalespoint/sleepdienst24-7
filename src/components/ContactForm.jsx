@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
@@ -101,7 +101,7 @@ export default function ContactForm() {
       </button>
       <p style={{ fontSize: '.82rem', color: 'var(--gray)', marginTop: '12px', textAlign: 'center' }}>
         Pech op dit moment? Bel ons direct op{' '}
-        <a href="tel:+31850607279" style={{ color: 'var(--primary)', fontWeight: '700' }}>085 060 7279</a>
+        <a href="tel:+31855055202" style={{ color: 'var(--primary)', fontWeight: '700' }}>085-5055202</a>
       </p>
     </form>
   )

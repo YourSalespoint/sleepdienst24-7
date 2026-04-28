@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../components/PhoneIcon'
 import TowTruckIcon from '../../components/TowTruckIcon'
 
@@ -113,7 +113,7 @@ export default function DienstenPage() {
           <h2>Direct hulp nodig?</h2>
           <p>Bel ons direct of vraag een offerte aan. Wij zijn er altijd voor u.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

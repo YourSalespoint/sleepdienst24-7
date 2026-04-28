@@ -1,10 +1,10 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../../components/PhoneIcon'
 import FaqList from '../../../components/FaqList'
 
 export const metadata = {
   title: 'Autotransport – Sleepdienst24/7 | Veilig transport door heel Nederland',
-  description: 'Auto gekocht op afstand of oldtimer te transporteren? Sleepdienst24/7 verzorgt veilig autotransport door heel Nederland. Bel 085 060 7279.',
+  description: 'Auto gekocht op afstand of oldtimer te transporteren? Sleepdienst24/7 verzorgt veilig autotransport door heel Nederland. Bel 085-5055202.',
 }
 
 const faqItems = [
@@ -77,7 +77,7 @@ export default function AutotransportPage() {
               <div className="sticky-card">
                 <div className="sticky-card-header"><h3>Autotransport aanvragen?</h3><p>Vrijblijvende offerte op maat</p></div>
                 <div className="sticky-card-body">
-                  <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+                  <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
                   <Link href="/contact" className="btn btn-ghost" style={{ marginBottom: '20px' }}>Offerte aanvragen</Link>
                   <div className="sticky-card-info">
                     <p>✓ Heel Nederland</p>
@@ -99,7 +99,7 @@ export default function AutotransportPage() {
           <h2>Autotransport nodig?</h2>
           <p>Vraag een vrijblijvende offerte aan of bel ons direct.</p>
           <div className="cta-btns">
-            <a href="tel:+31850607279" className="btn btn-primary"><PhoneIcon size={15} /> 085 060 7279</a>
+            <a href="tel:+31855055202" className="btn btn-primary"><PhoneIcon size={15} /> 085-5055202</a>
             <Link href="/contact" className="btn btn-outline-white">Offerte aanvragen</Link>
           </div>
         </div>

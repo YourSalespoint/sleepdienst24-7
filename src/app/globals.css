@@ -238,10 +238,18 @@ ul { list-style: none; }
 /* Dropdown */
 .nav-item { position: relative; }
 .nav-item > a::after { content: ' ▾'; font-size: .65rem; opacity: .6; }
+.nav-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 12px;
+  bottom: -12px;
+}
 .dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 4px);
   left: 0;
   background: var(--white);
   border-radius: 12px;

@@ -1,11 +1,11 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import PhoneIcon from '../../components/PhoneIcon'
 import ContactForm from '../../components/ContactForm'
 import FaqList from '../../components/FaqList'
 
 export const metadata = {
   title: 'Contact – Sleepdienst24/7 | 24/7 bereikbaar',
-  description: 'Neem contact op met Sleepdienst24/7. Bel 085 060 7279, stuur een WhatsApp of vul het contactformulier in. 24/7 bereikbaar voor sleepdienst en pechhulp in heel Nederland.',
+  description: 'Neem contact op met Sleepdienst24/7. Bel 085-5055202, stuur een WhatsApp of vul het contactformulier in. 24/7 bereikbaar voor sleepdienst en pechhulp in heel Nederland.',
 }
 
 const faqItems = [
@@ -55,10 +55,10 @@ export default function ContactPage() {
         <div className="container">
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
             <span style={{ color: 'white', fontWeight: '800', fontSize: '1rem' }}>Pech op dit moment?</span>
-            <a href="tel:+31850607279" className="btn btn-outline-white" style={{ padding: '9px 22px', fontSize: '.9rem' }}>
-              <PhoneIcon size={15} /> Bel direct: 085 060 7279
+            <a href="tel:+31855055202" className="btn btn-outline-white" style={{ padding: '9px 22px', fontSize: '.9rem' }}>
+              <PhoneIcon size={15} /> Bel direct: 085-5055202
             </a>
-            <a href="https://wa.me/31850607279" className="btn btn-outline-white" style={{ padding: '9px 22px', fontSize: '.9rem' }}>
+            <a href="https://wa.me/31855055202" className="btn btn-outline-white" style={{ padding: '9px 22px', fontSize: '.9rem' }}>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
               WhatsApp ons
             </a>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                     <div className="icon"><PhoneIcon size={16} /></div>
                     <div>
                       <strong>Telefoon</strong>
-                      <a href="tel:+31850607279">085 060 7279</a>
+                      <a href="tel:+31855055202">085-5055202</a>
                       <p style={{ fontSize: '.82rem', color: 'rgba(255,255,255,.5)', marginTop: '2px' }}>24/7 bereikbaar, ook feestdagen</p>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <strong>WhatsApp</strong>
-                      <a href="https://wa.me/31850607279">+31 85 060 7279</a>
+                      <a href="https://wa.me/31855055202">+31 85 060 7279</a>
                       <p style={{ fontSize: '.82rem', color: 'rgba(255,255,255,.5)', marginTop: '2px' }}>Stuur een bericht, wij reageren snel</p>
                     </div>
                   </div>
